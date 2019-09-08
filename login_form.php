@@ -1,5 +1,5 @@
 <?php
-#this is Login form page , if user is already logged in then we will not allow user to access this page by executing isset($_SESSION["uid"])
+#this is Login form page , if user is already loggedIn then we will not allow user to access this page by executing isset($_SESSION["uid"])
 #if below statment return true then we will send user to their profile.php page
 if (isset($_SESSION["uid"])) {
 	header("location:profile.php");
